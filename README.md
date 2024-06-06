@@ -21,6 +21,24 @@ This is a web application for restaurant and businesses review.
 - Realized flash sales with Redisson distributed lock and Lua scripts.
 - Constructed feed stream system with Push Mode.
 
+### Screenshot
+
+![Home Page](/screenshots/Homepage.png "Home Page")
+
+
+![Shop List Page](/screenshots/ShopList.png "Shop List Page")
+
+
+![Shop Detail Page](/screenshots/ShopDetail.png "Shop Detail Page")
+
+
+![Login Page](/screenshots/Login.png "Login Page")
+
+
+![Personal Page](/screenshots/Personalpage.png "Personal Page")
+
+
+
 ### Implementation Details
 **Authentication:**  
 

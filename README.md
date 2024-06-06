@@ -22,24 +22,33 @@ This is a web application for restaurant and businesses review.
 - Constructed feed stream system with Push Mode.
 
 ### Implementation Details
-**Authentication:**
+**Authentication:**  
+
 For possible cluster situation, since multiple servers does not share session,  I use Redis instead of traditional session to store user information.
 All requests will intercepted by `RefreshTokenInterceptor` , while the requests that need authentication are intercepted by `LoginInterceptor` .
 
-**Shop Distance Calculating:**
+**Shop Distance Calculating:**  
+
 Redis Geospatial data structure.
 
-**Cache Updating Strategy:**
+**Cache Updating Strategy:**  
+
 Mainly cache aside mehod with Time-To-Live for cache data as backup.
 
-**Cache Problems:**
-Cache penetration solution:  null-value.
-Cache avalanche solution: randomized TTL.
+**Cache Problems:**  
+
+Cache penetration solution:  null-value.  
+
+Cache avalanche solution: randomized TTL.  
+
 Cache breakdown solution:  logical expiration.
 
-**Flash Sale:**
-Solve oversaling problem with optimistic locking.
+**Flash Sale:**  
+
+Solve oversaling problem with optimistic locking.  
+
 Ensure one person one order by pessimistic locking with distributed lock and Lua scripts.
 
-**Feed Stream:**
+**Feed Stream:**  
+
 Use Push mode to actively pushes updates to followers.

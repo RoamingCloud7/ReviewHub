@@ -22,8 +22,17 @@ This is a web application for restaurant and businesses review.
 - Constructed feed stream system with Push Mode.
 
 ### Screenshot
+<img src=/screenshots/Homepage.png width=40% />
 
-![Home Page](/screenshots/Homepage.png "Home Page")
+<img src=/screenshots/ShopList.png width=40% />
+
+<img src=/screenshots/ShopDetail.png width=40% />
+
+<img src=/screenshots/Login.png width=40% />
+
+<img src=/screenshots/Personalpage.png width=40% />
+
+<!-- ![Home Page](/screenshots/Homepage.png "Home Page")
 
 
 ![Shop List Page](/screenshots/ShopList.png "Shop List Page")
@@ -35,7 +44,7 @@ This is a web application for restaurant and businesses review.
 ![Login Page](/screenshots/Login.png "Login Page")
 
 
-![Personal Page](/screenshots/Personalpage.png "Personal Page")
+![Personal Page](/screenshots/Personalpage.png "Personal Page") -->
 
 
 
